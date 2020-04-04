@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090E21"
+    android:focusableInTouchMode="true"
+    tools:context=".Activities.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:contentDescription="@string/corona_logo"
+            android:fontFamily="@font/cairo"
+            android:src="@drawable/logo" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/search_country_Et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittext_states"
+            android:fontFamily="@font/cairo"
+            android:hint="@string/label"
+            android:inputType="text"
+            android:minWidth="@dimen/_250sdp"
+            android:nextFocusLeft="@id/search_country_Et"
+            android:nextFocusUp="@id/search_country_Et"
+            android:padding="@dimen/_12sdp"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_16sdp"
+            android:textColorHint="#686B7C" />
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/cairo"
+            android:minWidth="@dimen/_210sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/search"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_20sdp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

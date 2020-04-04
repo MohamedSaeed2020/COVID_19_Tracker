@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">COVID-19 Tracker</string>
+    <string name="label">Enter Country Name</string>
+    <string name="search">Search</string>
+    <string name="global_cases_page">Global Cases Page</string>
+    <string name="global_statistics">Global statistics</string>
+    <string name="corona_logo">CORONA LOGO</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="_334676">334676</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="today_cases">Today Cases</string>
+    <string name="today_deaths">Today Deaths</string>
+    <string name="still_active">Still Active</string>
+    <string name="home">Home</string>
+    <string name="countries">Countries</string>
+    <string name="map">Map</string>
+    <string name="change_the_language">Change The Language</string>
+    <string name="en_language">English</string>
+    <string name="ar_language">Arabic</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="error_occurred">Error occurred!</string>
+    <string name="no_result_matching">There is no result with this name!</string>
+    <string name="enter_country_name">Please Enter Country Name</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="language">Change Language</string>
+</resources>

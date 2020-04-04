@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- edit text pressed state -->
+   <!-- <item android:drawable="@drawable/edittext_pressed_state" android:state_pressed="true" />-->
+    <!-- edit text focused state -->
+    <item android:drawable="@drawable/edittext_focused_state" android:state_focused="true" />
+    <!-- edit text default state -->
+    <item android:drawable="@drawable/edittext_default_state" />
+</selector>

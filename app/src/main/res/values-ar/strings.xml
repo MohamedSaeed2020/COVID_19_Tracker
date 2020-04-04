@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">احصائيات الكورونا</string>
+    <string name="_334676">334676</string>
+    <string name="corona_logo">لوجو الكورونا</string>
+    <string name="countries">الدول</string>
+    <string name="global_cases_page">صفحة الاحصائيات العامة</string>
+    <string name="global_statistics">الاحصائيات العامة</string>
+    <string name="home">الرئيسية</string>
+    <string name="label">ادخل اسم الدولة</string>
+    <string name="map">الخريطة</string>
+    <string name="search">ابحث</string>
+    <string name="still_active">الحالات النشطة</string>
+    <string name="today_cases">حالات اليوم</string>
+    <string name="today_deaths">وفيات اليوم</string>
+    <string name="total_cases">"اجمالي الاصابات "</string>
+    <string name="total_deaths">اجمالي الوفيات</string>
+    <string name="total_recovered">اجمالي المتعافين</string>
+    <string name="change_the_language">اختر اللغة</string>
+    <string name="en_language">اللغة الانجليزية</string>
+    <string name="ar_language">اللغة العربية</string>
+    <string name="choose_language">اختر اللغة</string>
+    <string name="error_occurred">حدث خطا ما!</string>
+    <string name="no_result_matching">عفوا لا توجد نتائج متعلقة بهذا البلد</string>
+    <string name="enter_country_name">من فضلك ادخل اسم البلد</string>
+    <string name="english">اللغة الانجليزية</string>
+    <string name="arabic">اللغة العربية</string>
+    <string name="language">تغيير اللغة</string>
+</resources>
