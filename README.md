@@ -15,4 +15,7 @@ recoveries and death rate on the map, with daily news and video.
 3) Microsoft Bing Map
 4) Material design
 
+# Screens 
+![IMG-20200404-WA0028](https://user-images.githubusercontent.com/23213279/78462720-14f60300-76d5-11ea-89bc-00c87980e00d.jpg)
+
 
