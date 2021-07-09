@@ -15,5 +15,8 @@ recoveries and death rate on the map, with daily news and video.
 3) Microsoft Bing Map
 4) Material design
 
+## The APK File link
+https://dl.orangedox.com/rAflZrpvzLF23xCjFO
+
 
 
