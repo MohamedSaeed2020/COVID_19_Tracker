@@ -17,8 +17,8 @@ import java.util.List;
 
 public class AutoCompleteCountryAdapter extends ArrayAdapter<CountryModel> {
 
-    private List<CountryModel> countries;
-    private List<CountryModel> filteredCountries = new ArrayList<>();
+    private final List<CountryModel> countries;
+    private final List<CountryModel> filteredCountries = new ArrayList<>();
 
 
     public AutoCompleteCountryAdapter(@NonNull Context context, @NonNull List<CountryModel> countryList) {
@@ -60,7 +60,7 @@ public class AutoCompleteCountryAdapter extends ArrayAdapter<CountryModel> {
         return convertView;
     }
 
-    private class countryFilter extends Filter {
+    private static class countryFilter extends Filter {
 
 
         AutoCompleteCountryAdapter adapter;

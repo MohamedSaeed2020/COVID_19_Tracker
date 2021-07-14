@@ -9,6 +9,7 @@ import javax.net.ssl.X509TrustManager;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Client {
@@ -21,6 +22,7 @@ public class Client {
                     .Builder()
                     .baseUrl(url)
                     .client(getUnsafeOKHttpClient().build())     //Note
+                    .addCallAdapterFactory(RxJava2CallAdapterFactory.create()) //To convert call to observable
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }

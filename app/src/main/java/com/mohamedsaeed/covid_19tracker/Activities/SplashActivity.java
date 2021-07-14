@@ -1,26 +1,28 @@
 package com.mohamedsaeed.covid_19tracker.Activities;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.ybq.android.spinkit.style.Wave;
-import com.mohamedsaeed.covid_19tracker.R;
+import com.mohamedsaeed.covid_19tracker.databinding.ActivitySplashBinding;
 
 
 public class SplashActivity extends AppCompatActivity {
 
+    ActivitySplashBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        binding=ActivitySplashBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
 
         //progress bar
-        ProgressBar progressBar = findViewById(R.id.spin_kit);
         Wave wave = new Wave();
-        progressBar.setIndeterminateDrawable(wave);
+        binding.spinKit.setIndeterminateDrawable(wave);
 
         //start DashboardActivity
         new Handler().postDelayed(() -> {
