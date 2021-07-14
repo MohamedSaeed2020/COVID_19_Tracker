@@ -11,9 +11,13 @@ recoveries and death rate on the map, with daily news and video.
 
 # Technologies Used
 1) REST API using retrofit
-2) Animation
-3) Microsoft Bing Map
-4) Material design
+2) MVVM Architectures Design Pattern
+3) RXJava
+4) Singleton Design Pattern
+5) View Binding
+3) Animation
+4) Microsoft Bing Map
+5) Material design
 
 ## The APK File link
 https://dl.orangedox.com/rAflZrpvzLF23xCjFO
